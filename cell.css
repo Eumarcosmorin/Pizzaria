@@ -1,0 +1,333 @@
+@charset "UTF-8";
+
+@keyframes acao {
+    
+0% {letter-spacing: normal;}
+100% { letter-spacing: 0.1em;}
+
+}
+
+@keyframes sumiu {
+
+    0%{opacity: 0;}
+    100%{opacity: 100;}
+    
+}
+
+@keyframes sumiu2 {
+
+    0%{opacity: 0;}
+    100%{opacity: 100;}
+    
+    
+}
+
+@keyframes sumiu3 {
+
+    100%{ opacity: 100;}
+    0%{ opacity: 0;}
+    
+    
+}
+
+@keyframes  amarelo {
+
+    0%{
+
+        margin-left: 0px; 
+        
+        color: black;
+    
+    }
+    100%{
+        
+        margin-left: 10px;
+    
+        color: #fca424;}
+        
+}
+
+
+
+#foto01,#foto02,#foto03{
+    visibility: hidden;
+}
+
+body{
+margin: 0px ;
+border: 0px;
+padding-left: 10px;
+background-color: #fffbf6;}
+
+
+header{
+    text-align: center;
+    
+}
+
+#icons{
+    position: fixed;
+    margin-top: -39px;
+    padding: 10px;
+    margin-left: 310px;
+    margin-right: 10px;
+    display: flex;
+    color: rgb(0, 0, 0);
+    background-color: #fca424;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+#home1:hover{
+
+    cursor: pointer;
+}
+
+#titulo01{
+
+    margin-top: 50px;
+
+}
+
+
+#icons>span{
+
+  margin: 0px 10px 0px 10px;
+  color: black;
+  
+}
+
+span#bem{
+
+color: #fca424;
+margin: 0px;
+
+}
+
+#itens{
+    
+    position: fixed;
+
+    margin: 25px 60px 0px -72px;
+}
+
+ul#ul1{
+
+    padding: 0px;
+    margin: 0px;
+    margin-left: 300px;
+    background: #fca624ea;
+    border-radius: 20px;
+    padding: 0px 50px 0px 50px;
+    animation: sumiu2 0.5s linear forwards;
+   
+
+}
+
+
+
+li#li1{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+    line-height: 4 ;
+}
+
+a:hover{
+
+    color: white;
+    border-bottom: solid 2px white;
+}
+
+#titulo01{
+
+    text-align: left;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+
+#texto01{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(124, 124, 124);
+    font-size: 15px;
+    line-height: 2;
+    
+}
+
+#botao01>input{
+
+    background-color: #fca424;
+    border-radius: 30px;
+    border: none;
+    padding: 15px;
+    font-size: large;
+
+}
+
+#botao01:hover input[type="button"] {
+    animation: acao 0.3s linear forwards  ;
+    animation-duration: 0.3s;
+  }
+
+#foto01{
+
+    width: 470px;
+}
+
+#titulo02{
+
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#texto02{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(124, 124, 124);
+    font-size: 16px;
+    line-height: 2;
+
+}
+
+#botao02>input{
+
+    background-color: #fca424;
+    border-radius: 30px;
+    border: none;
+    margin-left: 5px;
+    padding: 15px 270px 15px 15px;
+    font-size: 18px;
+
+}
+
+
+#botao02:hover input[type="button"] {
+    animation: acao 0.3s linear forwards ;
+    animation-duration: 0.3s;
+  }
+
+
+#titulopizza01>h2#h22{
+
+    margin-top: 190px;
+}
+
+span{
+
+    color: #fca424;
+
+}
+#titulopizza01 > h2,p#p1,pre {
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+#titulopizza01{
+
+    animation: sumiu ;
+    animation-duration: 6s;
+    
+
+}
+
+h2{
+
+    margin: 0px;
+
+}
+
+p#p1{
+    
+    margin: 0px;
+    margin-bottom: 60px;
+
+}
+
+#foto02{
+    
+    width: 460px;
+    border-radius: 30px;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+#pn01{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(124, 124, 124);
+    font-size: 15px;
+    line-height: 2;
+
+}
+
+#foto03{ 
+    
+    width:460px ;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+#l1{
+
+    columns: 2;
+    column-gap: 0px;
+    
+}
+
+
+
+
+.contato{
+
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 1px black ;
+    border-top: solid 1px black;
+padding: 20px;
+    
+}
+#contato01{
+
+    align-items: flex-start;
+}
+
+#contato01>h4{
+
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+li{
+    margin: 10px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+li#li2:hover{
+
+    animation: amarelo  linear forwards;
+    animation-duration: 0.3s;
+    cursor: pointer;
+    
+}
+
+#maps{
+    padding-top: 20px;
+    text-align: center;
+}
