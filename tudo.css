@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
-@media screen and ( min-width: 300px ) 
+@media screen and ( min-width: 700px ) and (max-width:px)
 {
-    #sections01{ justify-content: start;}
+    #sections01{display:inline-flex;}
+   
+
+
 } 
