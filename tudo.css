@@ -4,6 +4,7 @@
 {
     div#sss01{display:block;}
     div#topo001{display: flex;}
+    div#titulo01{ font-size: 75px; width: 800px;}
     div#texto01{color: aqua;}
    
 
