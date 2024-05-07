@@ -2,7 +2,8 @@
 
 @media screen and ( min-width: 700px ) and (max-width:1700px)
 {
-    div#sss01{display:flex;}
+    div#sss01{display:block;}
+    div#topo001{display: flex;}
     div#texto01{color: aqua;}
    
 
