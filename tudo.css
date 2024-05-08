@@ -4,9 +4,19 @@
 {
     div#sss01{display:block;}
     div#topo001{display: flex; margin: 0px; padding: 0px ;} 
-    div#titulo01{ font-size: 75px; width: 700px;}
+    div#titulo01{ font-size: 75px; width: 700px; margin-top: 120px; }
     #foto01{width: 650px;}
    
 
+    #icons{
+        position: fixed;
+        margin-top: 60px;
+        margin-left: 1150px;
+        margin-right: 10px;
+     
+    }
+
+    p#pp01{ font-size: 18px; line-height: 30px; margin-top: 50px;}
+    menu#itens{ display: none;}
 
 } 
