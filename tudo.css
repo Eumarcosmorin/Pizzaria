@@ -3,9 +3,9 @@
 @media screen and ( min-width: 700px ) and (max-width:1700px)
 {
     div#sss01{display:block;}
-    div#topo001{display: flex;}
-    div#titulo01{ font-size: 75px; width: 800px;}
-    div#texto01{color: aqua;}
+    div#topo001{display: flex; margin: 0px; padding: 0px ;} 
+    div#titulo01{ font-size: 75px; width: 700px;}
+    #foto01{width: 650px;}
    
 
 
