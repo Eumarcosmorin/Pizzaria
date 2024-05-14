@@ -19,4 +19,16 @@
     p#pp01{ font-size: 18px; line-height: 30px; margin-top: 50px;}
     menu#itens{ display: none;}
 
+    div#top002{display: block;}
+    div#top002{display: flex; margin: 0px; padding: 0px ;}
+    div#titulo02{font-size: 25px; width: 500px; 
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    div#texto02{ width: 300px; line-height: 18px; color: black;}
+  
+
 } 
