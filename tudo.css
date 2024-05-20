@@ -2,7 +2,6 @@
 
 @media screen and ( min-width: 700px ) and (max-width:1700px)
 {
-    div#sss01{display:block;}
     div#topo001{display: flex; margin: 0px; padding: 0px ;} 
     div#titulo01{ font-size: 75px; width: 700px; margin-top: 120px; }
     #foto01{width: 650px;}
@@ -19,16 +18,10 @@
     p#pp01{ font-size: 18px; line-height: 30px; margin-top: 50px;}
     menu#itens{ display: none;}
 
-    div#top002{display: block;}
-    div#top002{display: flex; margin: 0px; padding: 0px ;}
-    div#titulo02{font-size: 25px; width: 500px; 
-    
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    
-    }
     div#texto02{ width: 300px; line-height: 18px; color: black;}
+    div#foto020>img{ width: 300px; }
+    div#parte1002{margin-left: 300px;}
+    div#sss02{display: flex;}
   
 
 } 
