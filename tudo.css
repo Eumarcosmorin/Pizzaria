@@ -4,7 +4,7 @@
 {
     div#topo001{display: flex; margin: 0px; padding: 0px ;} 
     div#titulo01{ font-size: 75px; width: 700px; margin-top: 120px; }
-    #foto01{width: 650px;}
+    #foto01{width: 630px;}
    
 
     #icons{
@@ -19,13 +19,13 @@
     menu#itens{ display: none;}
 
     
-    div#foto020>img{ width: 700px; }
-    div#titulo0>strong{width: 300px;}
-
+    div#foto020>img{ width: 650px; }
+    
     div#parte2002{margin-left: 90px; margin-top: 70px;}
   
     div#sss02{display: flex;}
-    div#titulo02>strong{height: 200px; height: 100px;}
-    div#texto02{ width: 300px; line-height: 18px; color: black;}
-    
+   
+    div#titulo02{margin-left: 130px; font-size: 40px;}
+
+    div#texto02{ margin-right: 60px;}
 } 
