@@ -28,4 +28,13 @@
     div#titulo02{margin-left: 130px; font-size: 40px;}
 
     div#texto02{ margin-right: 60px;}
+
+    div#titulozinpizza01{ padding-left: 30px; margin-top: 60px; margin-bottom: 60px; text-align: left; }
+
+    img#foto02,img#foto03,img#foto04,img#foto05{width: 400px;}
+
+    div#titulopizza01{padding: 15px;}
+
+    div#todaspizza{display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); }
 } 
+
