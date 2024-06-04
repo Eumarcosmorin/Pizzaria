@@ -57,7 +57,7 @@ body{
 margin: 0px ;
 border: 0px;
 padding-left: 10px;
-background-color: #fffbf6;}
+background-color: #fff1e0;}
 
 
 header{
@@ -341,3 +341,7 @@ li#li2:hover{
     padding-top: 20px;
     text-align: center;
 }
+
+
+
+#menupc{display:none; }

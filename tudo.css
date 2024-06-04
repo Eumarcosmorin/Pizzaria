@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and ( min-width: 700px ) and (max-width:2000px)
+@media screen and ( min-width: 700px ) and (max-width:5000px)
 {
     div#topo001{display: flex; margin: 0px; padding: 0px ;} 
     div#titulo01{ font-size: 75px; width: 700px; margin-top: 120px; }
@@ -36,5 +36,16 @@
     div#titulopizza01{padding: 15px;}
 
     div#todaspizza{display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); }
+
+    header>#topo01{background-color:#fff1e0 ;}
+
+    #menupc{display: flex; position: fixed;text-align: center; }
+
+    #itens02{ margin-top: 70px;}
+
+    #logosite{width: 180px;}
+
+    #itens02>span{ font-size: 15px; margin-right: 30px;font-size: 20px; font-family: Arial, Helvetica, sans-serif; color: black; border: 100px;}
+
 } 
 

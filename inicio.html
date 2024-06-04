@@ -14,36 +14,44 @@
 
     <header>
 
-        <div id="icons">
-
-            <span 
+        <div id="topo01">
+            <div id="icons">
+                <span
             
-            id="compras" class="material-symbols-outlined">shopping_bag
-
-            </span>
-
-            <span
+                id="compras" class="material-symbols-outlined">shopping_bag
+                </span>
+                <span
             
-            id="pesquisa" class="material-symbols-outlined">search
+                id="pesquisa" class="material-symbols-outlined">search
             
-            </span>
+                </span>
             
-            <span
+                <span
             
-            id="home1" class="material-symbols-outlined" onclick="clickMenu()">menu
-            </span>
-        </div> 
-
-        <menu id="itens">
-            <ul id="ul1">
-                <li id="li1"><a href="#">Pizzas</a></li>
-                <li id="li1"><a href="#">Sanduiches</a></li>
-                <li id="li1"><a href="#">Omeletes</a></li>
-                <li id="li1"><a href="#">Açaí/Cremes</a></li>
-                <li id="li1"><a href="#">Bebidas</a></li>
-                <li id="li1"><a href="#"></a></li>
-            </ul>
-        </menu>
+                id="home1" class="material-symbols-outlined" onclick="clickMenu()">menu
+                </span>
+            </div>
+            <menu id="itens">
+                <ul id="ul1">
+                    <li id="li1"><a href="#">Pizzas</a></li>
+                    <li id="li1"><a href="#">Sanduiches</a></li>
+                    <li id="li1"><a href="#">Omeletes</a></li>
+                    <li id="li1"><a href="#">Açaí/Cremes</a></li>
+                    <li id="li1"><a href="#">Bebidas</a></li>
+                    <li id="li1"><a href="#"></a></li>
+                </ul>
+            </menu>
+            <div id="menupc">
+                <img id="logosite" src="img/logo-pit-mania.png" alt="logo">
+                <menu id="itens02">
+                    <span>Pizza</span>
+                    <span>Sanduiches</span>
+                    <span>Omeletes</span>
+                    <span>Açai/Cremes</span>
+                    <span>Bebidas</span>
+                </menu>
+            </div>
+        </div>
 
     </header>
 
@@ -234,6 +242,14 @@
         
         else {itens.style.display = 'block'}
        }
+
+       function clickMenu () {
+    
+    if(itens02.style.display == 'block')
+    {itens02.style.display = 'none'} 
+    
+    else {itens02.style.display = 'block'}
+   }
     
         </script>
     
